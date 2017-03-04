@@ -1,0 +1,29 @@
+       *{margin:0;padding:0;}
+       body{
+        //background-color: #c1e7ef;
+       }
+       #zombie{
+          height: 300px;
+          position: absolute;
+          bottom: 64px;
+          right: 0;
+          z-index: 999;
+       }
+      #grass{
+        position: absolute;
+        bottom: 0;
+        height:100px;
+        width: 100%;
+        background-image:url("Graphics/Land.png");
+        background-position:10px 0;
+        z-index: 999;
+      }
+      #sky{
+        position: absolute;
+        top: 0px;
+        height:700px;
+        width: 100%;
+        background-image:url("Graphics/sky.png");
+        background-position:0 10px;
+
+      }
